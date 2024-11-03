@@ -1,5 +1,5 @@
 const apiKey = 'b7c6f147d3c04738a97123159242710'; // Replace with your WeatherAPI key
-const apiUrl = 'http://api.weatherapi.com/v1/current.json';
+const apiUrl = 'https://api.weatherapi.com/v1/current.json';
 
 document.getElementById('searchButton').addEventListener('click', () => {
     const location = document.getElementById('locationInput').value;
